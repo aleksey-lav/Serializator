@@ -1,3 +1,4 @@
+/*
 package it.dan;
 
 import java.io.File;
@@ -22,3 +23,4 @@ public class AppRunner {
 		
 	}
 }
+*/

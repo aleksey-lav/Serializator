@@ -1,3 +1,4 @@
+/*
 package it.dan.model;
 
 import java.io.File;
@@ -48,3 +49,4 @@ public class Item implements Serializable  {
 	}
 	
 }
+*/
