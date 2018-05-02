@@ -11,11 +11,14 @@ public class SummaryOfNumbersVariant1 {
         for (int i = 0; i < N; i++) {
             mas[i] = in.nextInt();
         }
-      //  int[] n = {1,2,3,4,100};
+        long start = System.currentTimeMillis();
+        //  int[] n = {1,2,3,4,100};
         int sum = 0;
         for (int i = 0; i < mas.length; i++) {
             sum += mas[i];
         }
         System.out.println(sum);
+        long end = System.currentTimeMillis();
+        System.out.println("time: " + (end - start));
     }
 }
